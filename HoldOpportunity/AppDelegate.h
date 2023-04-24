@@ -1,8 +1,8 @@
 //
 //  AppDelegate.h
-//  HoldOpportunity
+//  RainstormEntirety iOS
 //
-//  Created by ylhd on 2023/4/20.
+//  Created by ylhd on 2022/12/7.
 //
 
 #import <UIKit/UIKit.h>
@@ -11,6 +11,9 @@
 
 @property (strong, nonatomic) UIWindow *window;
 
+//切换横竖屏
+@property (assign, nonatomic) int QP_cutNum;
+                        
 
 @end
 

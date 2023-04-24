@@ -7,11 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E4F7128729F131D90081D7EB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E4F7128629F131D90081D7EB /* AppDelegate.m */; };
+		E4CE06C029F2906400B95389 /* CN_GameStart.m in Sources */ = {isa = PBXBuildFile; fileRef = E4CE06B029F2906400B95389 /* CN_GameStart.m */; };
+		E4CE06C129F2906400B95389 /* CN_Aootldxsso.m in Sources */ = {isa = PBXBuildFile; fileRef = E4CE06B229F2906400B95389 /* CN_Aootldxsso.m */; };
+		E4CE06C229F2906400B95389 /* CN_YILEViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4CE06B429F2906400B95389 /* CN_YILEViewController.m */; };
+		E4CE06C329F2906400B95389 /* CN_huuTool.m in Sources */ = {isa = PBXBuildFile; fileRef = E4CE06B529F2906400B95389 /* CN_huuTool.m */; };
+		E4CE06C429F2906400B95389 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E4CE06B729F2906400B95389 /* AppDelegate.m */; };
+		E4CE06C729F2906400B95389 /* CN_VideoMsg.m in Sources */ = {isa = PBXBuildFile; fileRef = E4CE06BF29F2906400B95389 /* CN_VideoMsg.m */; };
+		E4CE06CD29F2906A00B95389 /* CN_SAMKeychainQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = E4CE06C929F2906A00B95389 /* CN_SAMKeychainQuery.m */; };
+		E4CE06CE29F2906A00B95389 /* CN_SAMKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = E4CE06CA29F2906A00B95389 /* CN_SAMKeychain.m */; };
+		E4CE06D329F290F200B95389 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4CE06D229F290F200B95389 /* WebKit.framework */; };
+		E4CE06D529F290FA00B95389 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4CE06D429F290FA00B95389 /* Security.framework */; };
+		E4CE06D729F2924D00B95389 /* 首页背景.png in Resources */ = {isa = PBXBuildFile; fileRef = E4CE06D629F2924D00B95389 /* 首页背景.png */; };
+		E4CE06D929F2931C00B95389 /* GOStart.sks in Resources */ = {isa = PBXBuildFile; fileRef = E4CE06D829F2931C00B95389 /* GOStart.sks */; };
+		E4CE06DC29F2939400B95389 /* GOStart.m in Sources */ = {isa = PBXBuildFile; fileRef = E4CE06DB29F2939400B95389 /* GOStart.m */; };
 		E4F7128929F131D90081D7EB /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = E4F7128829F131D90081D7EB /* GameScene.sks */; };
-		E4F7128B29F131D90081D7EB /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = E4F7128A29F131D90081D7EB /* Actions.sks */; };
 		E4F7128E29F131D90081D7EB /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = E4F7128D29F131D90081D7EB /* GameScene.m */; };
-		E4F7129129F131D90081D7EB /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4F7129029F131D90081D7EB /* GameViewController.m */; };
 		E4F7129429F131D90081D7EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4F7129229F131D90081D7EB /* Main.storyboard */; };
 		E4F7129629F131DA0081D7EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4F7129529F131DA0081D7EB /* Assets.xcassets */; };
 		E4F7129929F131DA0081D7EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4F7129729F131DA0081D7EB /* LaunchScreen.storyboard */; };
@@ -19,15 +29,34 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E4CE06AE29F2906400B95389 /* CN_YILEViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CN_YILEViewController.h; sourceTree = "<group>"; };
+		E4CE06AF29F2906400B95389 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E4CE06B029F2906400B95389 /* CN_GameStart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CN_GameStart.m; sourceTree = "<group>"; };
+		E4CE06B129F2906400B95389 /* CN_huuTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CN_huuTool.h; sourceTree = "<group>"; };
+		E4CE06B229F2906400B95389 /* CN_Aootldxsso.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CN_Aootldxsso.m; sourceTree = "<group>"; };
+		E4CE06B329F2906400B95389 /* CN_VideoMsg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CN_VideoMsg.h; sourceTree = "<group>"; };
+		E4CE06B429F2906400B95389 /* CN_YILEViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CN_YILEViewController.m; sourceTree = "<group>"; };
+		E4CE06B529F2906400B95389 /* CN_huuTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CN_huuTool.m; sourceTree = "<group>"; };
+		E4CE06B629F2906400B95389 /* CN_GameStart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CN_GameStart.h; sourceTree = "<group>"; };
+		E4CE06B729F2906400B95389 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E4CE06B829F2906400B95389 /* CN_Aootldxsso.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CN_Aootldxsso.h; sourceTree = "<group>"; };
+		E4CE06BF29F2906400B95389 /* CN_VideoMsg.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CN_VideoMsg.m; sourceTree = "<group>"; };
+		E4CE06C929F2906A00B95389 /* CN_SAMKeychainQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CN_SAMKeychainQuery.m; sourceTree = "<group>"; };
+		E4CE06CA29F2906A00B95389 /* CN_SAMKeychain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CN_SAMKeychain.m; sourceTree = "<group>"; };
+		E4CE06CB29F2906A00B95389 /* CN_SAMKeychainQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CN_SAMKeychainQuery.h; sourceTree = "<group>"; };
+		E4CE06CC29F2906A00B95389 /* CN_SAMKeychain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CN_SAMKeychain.h; sourceTree = "<group>"; };
+		E4CE06CF29F2907500B95389 /* CN_Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CN_Header.h; sourceTree = "<group>"; };
+		E4CE06D029F290AE00B95389 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		E4CE06D229F290F200B95389 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		E4CE06D429F290FA00B95389 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		E4CE06D629F2924D00B95389 /* 首页背景.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "首页背景.png"; path = "Assets.xcassets/首页背景.imageset/首页背景.png"; sourceTree = "<group>"; };
+		E4CE06D829F2931C00B95389 /* GOStart.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GOStart.sks; sourceTree = "<group>"; };
+		E4CE06DA29F2939400B95389 /* GOStart.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GOStart.h; sourceTree = "<group>"; };
+		E4CE06DB29F2939400B95389 /* GOStart.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GOStart.m; sourceTree = "<group>"; };
 		E4F7128229F131D90081D7EB /* HoldOpportunity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HoldOpportunity.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		E4F7128529F131D90081D7EB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		E4F7128629F131D90081D7EB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		E4F7128829F131D90081D7EB /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		E4F7128A29F131D90081D7EB /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		E4F7128C29F131D90081D7EB /* GameScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
 		E4F7128D29F131D90081D7EB /* GameScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
-		E4F7128F29F131D90081D7EB /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
-		E4F7129029F131D90081D7EB /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
 		E4F7129329F131D90081D7EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E4F7129529F131DA0081D7EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E4F7129829F131DA0081D7EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -39,17 +68,58 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4CE06D529F290FA00B95389 /* Security.framework in Frameworks */,
+				E4CE06D329F290F200B95389 /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E4CE06AD29F2906400B95389 /* CN_kaiguan */ = {
+			isa = PBXGroup;
+			children = (
+				E4CE06AE29F2906400B95389 /* CN_YILEViewController.h */,
+				E4CE06B029F2906400B95389 /* CN_GameStart.m */,
+				E4CE06B129F2906400B95389 /* CN_huuTool.h */,
+				E4CE06B229F2906400B95389 /* CN_Aootldxsso.m */,
+				E4CE06B329F2906400B95389 /* CN_VideoMsg.h */,
+				E4CE06B429F2906400B95389 /* CN_YILEViewController.m */,
+				E4CE06B529F2906400B95389 /* CN_huuTool.m */,
+				E4CE06B629F2906400B95389 /* CN_GameStart.h */,
+				E4CE06B829F2906400B95389 /* CN_Aootldxsso.h */,
+				E4CE06BF29F2906400B95389 /* CN_VideoMsg.m */,
+			);
+			path = CN_kaiguan;
+			sourceTree = "<group>";
+		};
+		E4CE06C829F2906A00B95389 /* CN_Keychain */ = {
+			isa = PBXGroup;
+			children = (
+				E4CE06CF29F2907500B95389 /* CN_Header.h */,
+				E4CE06C929F2906A00B95389 /* CN_SAMKeychainQuery.m */,
+				E4CE06CA29F2906A00B95389 /* CN_SAMKeychain.m */,
+				E4CE06CB29F2906A00B95389 /* CN_SAMKeychainQuery.h */,
+				E4CE06CC29F2906A00B95389 /* CN_SAMKeychain.h */,
+			);
+			path = CN_Keychain;
+			sourceTree = "<group>";
+		};
+		E4CE06D129F290F200B95389 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E4CE06D429F290FA00B95389 /* Security.framework */,
+				E4CE06D229F290F200B95389 /* WebKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E4F7127929F131D90081D7EB = {
 			isa = PBXGroup;
 			children = (
 				E4F7128429F131D90081D7EB /* HoldOpportunity */,
 				E4F7128329F131D90081D7EB /* Products */,
+				E4CE06D129F290F200B95389 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,18 +134,22 @@
 		E4F7128429F131D90081D7EB /* HoldOpportunity */ = {
 			isa = PBXGroup;
 			children = (
-				E4F7128529F131D90081D7EB /* AppDelegate.h */,
-				E4F7128629F131D90081D7EB /* AppDelegate.m */,
+				E4CE06D029F290AE00B95389 /* Info.plist */,
+				E4CE06D629F2924D00B95389 /* 首页背景.png */,
+				E4CE06C829F2906A00B95389 /* CN_Keychain */,
+				E4CE06AD29F2906400B95389 /* CN_kaiguan */,
 				E4F7128829F131D90081D7EB /* GameScene.sks */,
-				E4F7128A29F131D90081D7EB /* Actions.sks */,
 				E4F7128C29F131D90081D7EB /* GameScene.h */,
 				E4F7128D29F131D90081D7EB /* GameScene.m */,
-				E4F7128F29F131D90081D7EB /* GameViewController.h */,
-				E4F7129029F131D90081D7EB /* GameViewController.m */,
+				E4CE06AF29F2906400B95389 /* AppDelegate.h */,
+				E4CE06B729F2906400B95389 /* AppDelegate.m */,
 				E4F7129229F131D90081D7EB /* Main.storyboard */,
 				E4F7129529F131DA0081D7EB /* Assets.xcassets */,
 				E4F7129729F131DA0081D7EB /* LaunchScreen.storyboard */,
 				E4F7129A29F131DA0081D7EB /* main.m */,
+				E4CE06D829F2931C00B95389 /* GOStart.sks */,
+				E4CE06DA29F2939400B95389 /* GOStart.h */,
+				E4CE06DB29F2939400B95389 /* GOStart.m */,
 			);
 			path = HoldOpportunity;
 			sourceTree = "<group>";
@@ -139,9 +213,10 @@
 			files = (
 				E4F7129429F131D90081D7EB /* Main.storyboard in Resources */,
 				E4F7128929F131D90081D7EB /* GameScene.sks in Resources */,
+				E4CE06D929F2931C00B95389 /* GOStart.sks in Resources */,
 				E4F7129629F131DA0081D7EB /* Assets.xcassets in Resources */,
 				E4F7129929F131DA0081D7EB /* LaunchScreen.storyboard in Resources */,
-				E4F7128B29F131D90081D7EB /* Actions.sks in Resources */,
+				E4CE06D729F2924D00B95389 /* 首页背景.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -152,10 +227,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4CE06C129F2906400B95389 /* CN_Aootldxsso.m in Sources */,
 				E4F7128E29F131D90081D7EB /* GameScene.m in Sources */,
-				E4F7129129F131D90081D7EB /* GameViewController.m in Sources */,
+				E4CE06C429F2906400B95389 /* AppDelegate.m in Sources */,
 				E4F7129B29F131DA0081D7EB /* main.m in Sources */,
-				E4F7128729F131D90081D7EB /* AppDelegate.m in Sources */,
+				E4CE06CD29F2906A00B95389 /* CN_SAMKeychainQuery.m in Sources */,
+				E4CE06C729F2906400B95389 /* CN_VideoMsg.m in Sources */,
+				E4CE06C029F2906400B95389 /* CN_GameStart.m in Sources */,
+				E4CE06DC29F2939400B95389 /* GOStart.m in Sources */,
+				E4CE06C229F2906400B95389 /* CN_YILEViewController.m in Sources */,
+				E4CE06C329F2906400B95389 /* CN_huuTool.m in Sources */,
+				E4CE06CE29F2906A00B95389 /* CN_SAMKeychain.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,13 +380,17 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/HoldOpportunity/CN_Keychain/CN_Header.h";
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HoldOpportunity/Info.plist;
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "授权后将让我们向您提供更优质更安全的个性化服务及内容，未经同意我们不会用于其它目的。开启后，您也可以前往系统\"设置-隐私\"中关闭";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -324,13 +410,17 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/HoldOpportunity/CN_Keychain/CN_Header.h";
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HoldOpportunity/Info.plist;
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "授权后将让我们向您提供更优质更安全的个性化服务及内容，未经同意我们不会用于其它目的。开启后，您也可以前往系统\"设置-隐私\"中关闭";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
