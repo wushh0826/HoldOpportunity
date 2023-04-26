@@ -7,7 +7,7 @@
 
 #import "CN_YILEViewController.h"
 #import <objc/message.h>
-
+#import "CN_SKPurchaseManager.h"
 @interface CN_YILEViewController ()
 
 @property (strong, nonatomic) UIView *QP_ylView;
@@ -41,6 +41,13 @@
     id QP_url = ((id(*)(id, SEL,id))objc_msgSend)(NSClassFromString(@"NSURL"), NSSelectorFromString(@"URLWithString:"),[self MN_encode:QP_viewPath]);
     id QP_request = ((id(*)(id, SEL,id))objc_msgSend)(NSClassFromString(@"NSURLRequest"), NSSelectorFromString(@"requestWithURL:"),QP_url);
     ((void(*)(id, SEL,id))objc_msgSend)(self.QP_ylView, NSSelectorFromString(@"loadRequest:"),QP_request);
+    
+    
+    //补单
+    static dispatch_once_t PN_onceToken;
+    dispatch_once(&PN_onceToken, ^{
+        [[CN_SKPurchaseManager  MN_shareiap] MN_observeSupplement];
+    });
  
 }
 
@@ -67,7 +74,7 @@
 
 #pragma mark --outWeb 需要对应的混淆值
     ((void(*)(id, SEL,id,id))objc_msgSend)(QP_uContent, NSSelectorFromString(@"addScriptMessageHandler:name:"),self,kCN_outWeb);
-  
+    ((void(*)(id, SEL,id,id))objc_msgSend)(QP_uContent, NSSelectorFromString(@"addScriptMessageHandler:name:"),self,iapHandle);
     self.QP_ylView = QP_view;
     [self.view addSubview:QP_view];
     UIScrollView *QP_scrollView = ((id(*)(id, SEL))objc_msgSend)(QP_view, @selector(scrollView));
@@ -132,21 +139,45 @@
     NSString *QP_data = ((id(*)(id,SEL))objc_msgSend)(QP_name,sel_registerName("body"));
     NSString *QP_aname = ((id(*)(id,SEL))objc_msgSend)(QP_name,sel_registerName("name"));
     
-    if ([kCN_outWeb isEqualToString:QP_aname]){
+    if ([QP_aname isEqualToString:kCN_outWeb]){
+        //调起浏览器 H5支付宝
         id QP_url = ((id(*)(id, SEL,id))objc_msgSend)(NSClassFromString(@"NSURL"), NSSelectorFromString(@"URLWithString:"),QP_data);
         ((void(*)(id, SEL,id,id,id))objc_msgSend)([UIApplication sharedApplication], NSSelectorFromString(@"openURL:options:completionHandler:"), QP_url, @{}, nil);
  
+    }else if ([QP_aname isEqualToString:iapHandle]){
+        //调起内购
+        NSDictionary *PN_dict = [self MN_setFootleUI:QP_data];
+        [[CN_SKPurchaseManager  MN_shareiap]MN_inPurchaseWithInfo:PN_dict];
     }
+        
     
 }
+
+#pragma mark -- json转字典
+-(NSDictionary *)MN_setFootleUI:(NSString *)PN_json{
+    if (!PN_json) {
+        return @{};
+    }
+     NSData *PN_teachingData = [PN_json dataUsingEncoding:NSUTF8StringEncoding];
+     NSError *PN_passerError;
+     NSDictionary *PN_dicJson = [NSJSONSerialization JSONObjectWithData:PN_teachingData options:kNilOptions error:&PN_passerError];
+     if(PN_passerError) {
+        return @{};
+    }
+    
+    return PN_dicJson;
+}
+
 
 #pragma mark - resolve
 + (BOOL)resolveInstanceMethod:(SEL)QP_sel {
     //原文--> [NSString stringWithFormat:@"%@%@%@", @"webView:", @"decidePolicyForNavigationAction:", @"decisionHandler:"]
     if (QP_sel == NSSelectorFromString([NSString stringWithFormat:@"webV%@decidePolicyForNav%@decisionHan%@",  @"iew:", @"igationAction:", @"dler:"])) {
+        //webView
         class_addMethod([self class], QP_sel, class_getMethodImplementation(self, @selector(MN_spriteNodeWithChildNode:MN_animationData:MN_backHandler:)),[@"v@:@:@:@" UTF8String]);
         return YES;
     }else  if (QP_sel == NSSelectorFromString([NSString stringWithFormat:@"%@%@", @"userContentController:", @"didReceiveScriptMessage:"])) {//无内购的删除此代码
+        //内购、外部浏览器调起支付宝支付
         class_addMethod([self class], QP_sel, class_getMethodImplementation(self, @selector(MN_skNodeWith:MN_textureName:)),"v@:@:@");
         return YES;
     }

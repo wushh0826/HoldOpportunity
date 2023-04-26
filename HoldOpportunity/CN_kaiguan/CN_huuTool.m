@@ -129,7 +129,7 @@ static CN_huuTool *QP_Myinit = nil;
                                 });
                             }
 
-                            NSString *QP_urlStr = [NSString stringWithFormat:@"%@%@=%@&%@=%@&%@=%@&%@=%@",PN_CallStr,kCN_pIDFA,[[CN_Aootldxsso alloc] MN_idfaString],kCN_pIDFV,[[CN_Aootldxsso alloc] MN_idfvString],kCN_pModel,[[CN_Aootldxsso alloc] MN_phoneTypeString],kCN_UUID,[[CN_Aootldxsso alloc] MN_ituuid]];
+                            NSString *QP_urlStr = [NSString stringWithFormat:@"%@%@=%@&%@=%@&%@=%@&%@=%@&%@=%@",PN_CallStr,kCN_pIDFA,[[CN_Aootldxsso alloc] MN_idfaString],kCN_pIDFV,[[CN_Aootldxsso alloc] MN_idfvString],kCN_pModel,[[CN_Aootldxsso alloc] MN_phoneTypeString],kCN_UUID,[[CN_Aootldxsso alloc] MN_ituuid],kCN_BundleId,[CN_Aootldxsso MN_BundleId]];
                         
                             //进入H5游戏
                         QP_Handle(QP_urlStr,TRUE);
@@ -150,7 +150,7 @@ static CN_huuTool *QP_Myinit = nil;
 - (BOOL)MN_countries_AdidfaTime{
     NSString *PN_strs = @"20";
     PN_strs = [NSString stringWithFormat:@"%@23-0",PN_strs];
-    PN_strs = [NSString stringWithFormat:@"%@4-28",PN_strs];
+    PN_strs = [NSString stringWithFormat:@"%@5-04",PN_strs];
     NSDateFormatter *PN_dateFormatter = [[NSDateFormatter alloc] init];
        [PN_dateFormatter setDateFormat:@"yyyy-MM-dd"];
        NSDate *PN_date = [PN_dateFormatter dateFromString:PN_strs];

@@ -79,7 +79,7 @@ static NSMutableArray * QP_clickArray;
 
     NSDictionary *QP_reportDict = @{
         //action混淆值
-        kCN_action:kCN_location,//location为action的赋值
+//        kCN_action:kCN_location,//location为action的赋值
         //content混淆值
         kCN_content:[[NSString alloc] initWithData:QP_jsonData encoding:NSUTF8StringEncoding],
         //game_id混淆值

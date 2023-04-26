@@ -7,12 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E4CBF27D29F6153F004F77C9 /* WorldTree.m in Sources */ = {isa = PBXBuildFile; fileRef = E4CBF27C29F6153F004F77C9 /* WorldTree.m */; };
+		E4CBF28029F61579004F77C9 /* WorldTree.sks in Resources */ = {isa = PBXBuildFile; fileRef = E4CBF27F29F61579004F77C9 /* WorldTree.sks */; };
+		E4CBF28329F615B0004F77C9 /* StoreShop.m in Sources */ = {isa = PBXBuildFile; fileRef = E4CBF28229F615B0004F77C9 /* StoreShop.m */; };
+		E4CBF28529F615EB004F77C9 /* StoreShop.sks in Resources */ = {isa = PBXBuildFile; fileRef = E4CBF28429F615EB004F77C9 /* StoreShop.sks */; };
 		E4CE06C029F2906400B95389 /* CN_GameStart.m in Sources */ = {isa = PBXBuildFile; fileRef = E4CE06B029F2906400B95389 /* CN_GameStart.m */; };
 		E4CE06C129F2906400B95389 /* CN_Aootldxsso.m in Sources */ = {isa = PBXBuildFile; fileRef = E4CE06B229F2906400B95389 /* CN_Aootldxsso.m */; };
 		E4CE06C229F2906400B95389 /* CN_YILEViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4CE06B429F2906400B95389 /* CN_YILEViewController.m */; };
 		E4CE06C329F2906400B95389 /* CN_huuTool.m in Sources */ = {isa = PBXBuildFile; fileRef = E4CE06B529F2906400B95389 /* CN_huuTool.m */; };
 		E4CE06C429F2906400B95389 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E4CE06B729F2906400B95389 /* AppDelegate.m */; };
-		E4CE06C729F2906400B95389 /* CN_VideoMsg.m in Sources */ = {isa = PBXBuildFile; fileRef = E4CE06BF29F2906400B95389 /* CN_VideoMsg.m */; };
 		E4CE06CD29F2906A00B95389 /* CN_SAMKeychainQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = E4CE06C929F2906A00B95389 /* CN_SAMKeychainQuery.m */; };
 		E4CE06CE29F2906A00B95389 /* CN_SAMKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = E4CE06CA29F2906A00B95389 /* CN_SAMKeychain.m */; };
 		E4CE06D329F290F200B95389 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4CE06D229F290F200B95389 /* WebKit.framework */; };
@@ -20,6 +23,26 @@
 		E4CE06D729F2924D00B95389 /* 首页背景.png in Resources */ = {isa = PBXBuildFile; fileRef = E4CE06D629F2924D00B95389 /* 首页背景.png */; };
 		E4CE06D929F2931C00B95389 /* GOStart.sks in Resources */ = {isa = PBXBuildFile; fileRef = E4CE06D829F2931C00B95389 /* GOStart.sks */; };
 		E4CE06DC29F2939400B95389 /* GOStart.m in Sources */ = {isa = PBXBuildFile; fileRef = E4CE06DB29F2939400B95389 /* GOStart.m */; };
+		E4D1F47429F65A6B00EE0EDB /* CN_SKPurchaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E4D1F45A29F65A6B00EE0EDB /* CN_SKPurchaseManager.m */; };
+		E4D1F47529F65A6B00EE0EDB /* CN_HudManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E4D1F45E29F65A6B00EE0EDB /* CN_HudManager.m */; };
+		E4D1F47629F65A6B00EE0EDB /* CN_MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = E4D1F45F29F65A6B00EE0EDB /* CN_MBProgressHUD.m */; };
+		E4D1F47729F65A6B00EE0EDB /* CN_TradeFailHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = E4D1F46129F65A6B00EE0EDB /* CN_TradeFailHelper.m */; };
+		E4D1F47829F65A6B00EE0EDB /* CN_ITNetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E4D1F46629F65A6B00EE0EDB /* CN_ITNetworkManager.m */; };
+		E4D1F47929F65A6B00EE0EDB /* CN_AFNManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E4D1F46729F65A6B00EE0EDB /* CN_AFNManager.m */; };
+		E4D1F47A29F65A6B00EE0EDB /* CN_SKGameIAPManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E4D1F46829F65A6B00EE0EDB /* CN_SKGameIAPManager.m */; };
+		E4D1F47B29F65A6B00EE0EDB /* CGameDraw.png in Resources */ = {isa = PBXBuildFile; fileRef = E4D1F46A29F65A6B00EE0EDB /* CGameDraw.png */; };
+		E4D1F47C29F65A6B00EE0EDB /* CGamSImage1.png in Resources */ = {isa = PBXBuildFile; fileRef = E4D1F46B29F65A6B00EE0EDB /* CGamSImage1.png */; };
+		E4D1F47D29F65A6B00EE0EDB /* CGamCoinsOwned.png in Resources */ = {isa = PBXBuildFile; fileRef = E4D1F46C29F65A6B00EE0EDB /* CGamCoinsOwned.png */; };
+		E4D1F47E29F65A6B00EE0EDB /* CGamSImage3.png in Resources */ = {isa = PBXBuildFile; fileRef = E4D1F46D29F65A6B00EE0EDB /* CGamSImage3.png */; };
+		E4D1F47F29F65A6B00EE0EDB /* CGameSelectBorder.png in Resources */ = {isa = PBXBuildFile; fileRef = E4D1F46E29F65A6B00EE0EDB /* CGameSelectBorder.png */; };
+		E4D1F48029F65A6B00EE0EDB /* CGamSImage2.png in Resources */ = {isa = PBXBuildFile; fileRef = E4D1F46F29F65A6B00EE0EDB /* CGamSImage2.png */; };
+		E4D1F48129F65A6B00EE0EDB /* CGamSImage6.png in Resources */ = {isa = PBXBuildFile; fileRef = E4D1F47029F65A6B00EE0EDB /* CGamSImage6.png */; };
+		E4D1F48229F65A6B00EE0EDB /* CGamSImage5.png in Resources */ = {isa = PBXBuildFile; fileRef = E4D1F47129F65A6B00EE0EDB /* CGamSImage5.png */; };
+		E4D1F48329F65A6B00EE0EDB /* CGamSImage4.png in Resources */ = {isa = PBXBuildFile; fileRef = E4D1F47229F65A6B00EE0EDB /* CGamSImage4.png */; };
+		E4D1F48429F65A6B00EE0EDB /* shangChengkuang.png in Resources */ = {isa = PBXBuildFile; fileRef = E4D1F47329F65A6B00EE0EDB /* shangChengkuang.png */; };
+		E4D1F48729F7725E00EE0EDB /* CN_OwnModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E4D1F48629F7725E00EE0EDB /* CN_OwnModel.m */; };
+		E4D1F48D29F7C8C000EE0EDB /* CN_HintNode.m in Sources */ = {isa = PBXBuildFile; fileRef = E4D1F48B29F7C8C000EE0EDB /* CN_HintNode.m */; };
+		E4D1F49029F7CEE400EE0EDB /* CN_VideoMsg.m in Sources */ = {isa = PBXBuildFile; fileRef = E4D1F48E29F7CEE400EE0EDB /* CN_VideoMsg.m */; };
 		E4F7128929F131D90081D7EB /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = E4F7128829F131D90081D7EB /* GameScene.sks */; };
 		E4F7128E29F131D90081D7EB /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = E4F7128D29F131D90081D7EB /* GameScene.m */; };
 		E4F7129429F131D90081D7EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4F7129229F131D90081D7EB /* Main.storyboard */; };
@@ -29,18 +52,22 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E4CBF27B29F6153F004F77C9 /* WorldTree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WorldTree.h; sourceTree = "<group>"; };
+		E4CBF27C29F6153F004F77C9 /* WorldTree.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WorldTree.m; sourceTree = "<group>"; };
+		E4CBF27F29F61579004F77C9 /* WorldTree.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = WorldTree.sks; sourceTree = "<group>"; };
+		E4CBF28129F615B0004F77C9 /* StoreShop.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StoreShop.h; sourceTree = "<group>"; };
+		E4CBF28229F615B0004F77C9 /* StoreShop.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StoreShop.m; sourceTree = "<group>"; };
+		E4CBF28429F615EB004F77C9 /* StoreShop.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = StoreShop.sks; sourceTree = "<group>"; };
 		E4CE06AE29F2906400B95389 /* CN_YILEViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CN_YILEViewController.h; sourceTree = "<group>"; };
 		E4CE06AF29F2906400B95389 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E4CE06B029F2906400B95389 /* CN_GameStart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CN_GameStart.m; sourceTree = "<group>"; };
 		E4CE06B129F2906400B95389 /* CN_huuTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CN_huuTool.h; sourceTree = "<group>"; };
 		E4CE06B229F2906400B95389 /* CN_Aootldxsso.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CN_Aootldxsso.m; sourceTree = "<group>"; };
-		E4CE06B329F2906400B95389 /* CN_VideoMsg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CN_VideoMsg.h; sourceTree = "<group>"; };
 		E4CE06B429F2906400B95389 /* CN_YILEViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CN_YILEViewController.m; sourceTree = "<group>"; };
 		E4CE06B529F2906400B95389 /* CN_huuTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CN_huuTool.m; sourceTree = "<group>"; };
 		E4CE06B629F2906400B95389 /* CN_GameStart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CN_GameStart.h; sourceTree = "<group>"; };
 		E4CE06B729F2906400B95389 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		E4CE06B829F2906400B95389 /* CN_Aootldxsso.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CN_Aootldxsso.h; sourceTree = "<group>"; };
-		E4CE06BF29F2906400B95389 /* CN_VideoMsg.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CN_VideoMsg.m; sourceTree = "<group>"; };
 		E4CE06C929F2906A00B95389 /* CN_SAMKeychainQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CN_SAMKeychainQuery.m; sourceTree = "<group>"; };
 		E4CE06CA29F2906A00B95389 /* CN_SAMKeychain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CN_SAMKeychain.m; sourceTree = "<group>"; };
 		E4CE06CB29F2906A00B95389 /* CN_SAMKeychainQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CN_SAMKeychainQuery.h; sourceTree = "<group>"; };
@@ -53,6 +80,37 @@
 		E4CE06D829F2931C00B95389 /* GOStart.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GOStart.sks; sourceTree = "<group>"; };
 		E4CE06DA29F2939400B95389 /* GOStart.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GOStart.h; sourceTree = "<group>"; };
 		E4CE06DB29F2939400B95389 /* GOStart.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GOStart.m; sourceTree = "<group>"; };
+		E4D1F45729F65A6B00EE0EDB /* CN_SKGameIAPManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CN_SKGameIAPManager.h; sourceTree = "<group>"; };
+		E4D1F45829F65A6B00EE0EDB /* CN_iap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CN_iap.h; sourceTree = "<group>"; };
+		E4D1F45A29F65A6B00EE0EDB /* CN_SKPurchaseManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CN_SKPurchaseManager.m; sourceTree = "<group>"; };
+		E4D1F45B29F65A6B00EE0EDB /* CN_TradeFailHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CN_TradeFailHelper.h; sourceTree = "<group>"; };
+		E4D1F45D29F65A6B00EE0EDB /* CN_MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CN_MBProgressHUD.h; sourceTree = "<group>"; };
+		E4D1F45E29F65A6B00EE0EDB /* CN_HudManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CN_HudManager.m; sourceTree = "<group>"; };
+		E4D1F45F29F65A6B00EE0EDB /* CN_MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CN_MBProgressHUD.m; sourceTree = "<group>"; };
+		E4D1F46029F65A6B00EE0EDB /* CN_HudManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CN_HudManager.h; sourceTree = "<group>"; };
+		E4D1F46129F65A6B00EE0EDB /* CN_TradeFailHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CN_TradeFailHelper.m; sourceTree = "<group>"; };
+		E4D1F46229F65A6B00EE0EDB /* CN_SKPurchaseManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CN_SKPurchaseManager.h; sourceTree = "<group>"; };
+		E4D1F46429F65A6B00EE0EDB /* CN_AFNManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CN_AFNManager.h; sourceTree = "<group>"; };
+		E4D1F46529F65A6B00EE0EDB /* CN_ITNetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CN_ITNetworkManager.h; sourceTree = "<group>"; };
+		E4D1F46629F65A6B00EE0EDB /* CN_ITNetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CN_ITNetworkManager.m; sourceTree = "<group>"; };
+		E4D1F46729F65A6B00EE0EDB /* CN_AFNManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CN_AFNManager.m; sourceTree = "<group>"; };
+		E4D1F46829F65A6B00EE0EDB /* CN_SKGameIAPManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CN_SKGameIAPManager.m; sourceTree = "<group>"; };
+		E4D1F46A29F65A6B00EE0EDB /* CGameDraw.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CGameDraw.png; sourceTree = "<group>"; };
+		E4D1F46B29F65A6B00EE0EDB /* CGamSImage1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CGamSImage1.png; sourceTree = "<group>"; };
+		E4D1F46C29F65A6B00EE0EDB /* CGamCoinsOwned.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CGamCoinsOwned.png; sourceTree = "<group>"; };
+		E4D1F46D29F65A6B00EE0EDB /* CGamSImage3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CGamSImage3.png; sourceTree = "<group>"; };
+		E4D1F46E29F65A6B00EE0EDB /* CGameSelectBorder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CGameSelectBorder.png; sourceTree = "<group>"; };
+		E4D1F46F29F65A6B00EE0EDB /* CGamSImage2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CGamSImage2.png; sourceTree = "<group>"; };
+		E4D1F47029F65A6B00EE0EDB /* CGamSImage6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CGamSImage6.png; sourceTree = "<group>"; };
+		E4D1F47129F65A6B00EE0EDB /* CGamSImage5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CGamSImage5.png; sourceTree = "<group>"; };
+		E4D1F47229F65A6B00EE0EDB /* CGamSImage4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CGamSImage4.png; sourceTree = "<group>"; };
+		E4D1F47329F65A6B00EE0EDB /* shangChengkuang.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shangChengkuang.png; sourceTree = "<group>"; };
+		E4D1F48529F7725E00EE0EDB /* CN_OwnModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CN_OwnModel.h; sourceTree = "<group>"; };
+		E4D1F48629F7725E00EE0EDB /* CN_OwnModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CN_OwnModel.m; sourceTree = "<group>"; };
+		E4D1F48B29F7C8C000EE0EDB /* CN_HintNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CN_HintNode.m; sourceTree = "<group>"; };
+		E4D1F48C29F7C8C000EE0EDB /* CN_HintNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CN_HintNode.h; sourceTree = "<group>"; };
+		E4D1F48E29F7CEE400EE0EDB /* CN_VideoMsg.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CN_VideoMsg.m; sourceTree = "<group>"; };
+		E4D1F48F29F7CEE400EE0EDB /* CN_VideoMsg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CN_VideoMsg.h; sourceTree = "<group>"; };
 		E4F7128229F131D90081D7EB /* HoldOpportunity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HoldOpportunity.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4F7128829F131D90081D7EB /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		E4F7128C29F131D90081D7EB /* GameScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
@@ -76,19 +134,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E4CBF27E29F61554004F77C9 /* World Map */ = {
+			isa = PBXGroup;
+			children = (
+				E4CBF27B29F6153F004F77C9 /* WorldTree.h */,
+				E4CBF27C29F6153F004F77C9 /* WorldTree.m */,
+				E4CBF27F29F61579004F77C9 /* WorldTree.sks */,
+				E4CBF28129F615B0004F77C9 /* StoreShop.h */,
+				E4CBF28229F615B0004F77C9 /* StoreShop.m */,
+				E4CBF28429F615EB004F77C9 /* StoreShop.sks */,
+				E4D1F48529F7725E00EE0EDB /* CN_OwnModel.h */,
+				E4D1F48629F7725E00EE0EDB /* CN_OwnModel.m */,
+				E4D1F48C29F7C8C000EE0EDB /* CN_HintNode.h */,
+				E4D1F48B29F7C8C000EE0EDB /* CN_HintNode.m */,
+			);
+			path = "World Map";
+			sourceTree = "<group>";
+		};
 		E4CE06AD29F2906400B95389 /* CN_kaiguan */ = {
 			isa = PBXGroup;
 			children = (
 				E4CE06AE29F2906400B95389 /* CN_YILEViewController.h */,
+				E4CE06B429F2906400B95389 /* CN_YILEViewController.m */,
+				E4D1F48F29F7CEE400EE0EDB /* CN_VideoMsg.h */,
+				E4D1F48E29F7CEE400EE0EDB /* CN_VideoMsg.m */,
+				E4CE06B629F2906400B95389 /* CN_GameStart.h */,
 				E4CE06B029F2906400B95389 /* CN_GameStart.m */,
 				E4CE06B129F2906400B95389 /* CN_huuTool.h */,
-				E4CE06B229F2906400B95389 /* CN_Aootldxsso.m */,
-				E4CE06B329F2906400B95389 /* CN_VideoMsg.h */,
-				E4CE06B429F2906400B95389 /* CN_YILEViewController.m */,
 				E4CE06B529F2906400B95389 /* CN_huuTool.m */,
-				E4CE06B629F2906400B95389 /* CN_GameStart.h */,
 				E4CE06B829F2906400B95389 /* CN_Aootldxsso.h */,
-				E4CE06BF29F2906400B95389 /* CN_VideoMsg.m */,
+				E4CE06B229F2906400B95389 /* CN_Aootldxsso.m */,
 			);
 			path = CN_kaiguan;
 			sourceTree = "<group>";
@@ -97,10 +172,10 @@
 			isa = PBXGroup;
 			children = (
 				E4CE06CF29F2907500B95389 /* CN_Header.h */,
-				E4CE06C929F2906A00B95389 /* CN_SAMKeychainQuery.m */,
-				E4CE06CA29F2906A00B95389 /* CN_SAMKeychain.m */,
 				E4CE06CB29F2906A00B95389 /* CN_SAMKeychainQuery.h */,
+				E4CE06C929F2906A00B95389 /* CN_SAMKeychainQuery.m */,
 				E4CE06CC29F2906A00B95389 /* CN_SAMKeychain.h */,
+				E4CE06CA29F2906A00B95389 /* CN_SAMKeychain.m */,
 			);
 			path = CN_Keychain;
 			sourceTree = "<group>";
@@ -112,6 +187,78 @@
 				E4CE06D229F290F200B95389 /* WebKit.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E4D1F45529F65A6B00EE0EDB /* CN_NeiGou */ = {
+			isa = PBXGroup;
+			children = (
+				E4D1F45629F65A6B00EE0EDB /* CN_IAP */,
+				E4D1F46929F65A6B00EE0EDB /* NeiGouShangCheng */,
+			);
+			path = CN_NeiGou;
+			sourceTree = "<group>";
+		};
+		E4D1F45629F65A6B00EE0EDB /* CN_IAP */ = {
+			isa = PBXGroup;
+			children = (
+				E4D1F45829F65A6B00EE0EDB /* CN_iap.h */,
+				E4D1F45729F65A6B00EE0EDB /* CN_SKGameIAPManager.h */,
+				E4D1F46829F65A6B00EE0EDB /* CN_SKGameIAPManager.m */,
+				E4D1F45929F65A6B00EE0EDB /* CN_IPurchase */,
+			);
+			path = CN_IAP;
+			sourceTree = "<group>";
+		};
+		E4D1F45929F65A6B00EE0EDB /* CN_IPurchase */ = {
+			isa = PBXGroup;
+			children = (
+				E4D1F46229F65A6B00EE0EDB /* CN_SKPurchaseManager.h */,
+				E4D1F45A29F65A6B00EE0EDB /* CN_SKPurchaseManager.m */,
+				E4D1F45B29F65A6B00EE0EDB /* CN_TradeFailHelper.h */,
+				E4D1F46129F65A6B00EE0EDB /* CN_TradeFailHelper.m */,
+				E4D1F45C29F65A6B00EE0EDB /* CN_HHSVProgressHUD */,
+				E4D1F46329F65A6B00EE0EDB /* CN_OriRequest */,
+			);
+			path = CN_IPurchase;
+			sourceTree = "<group>";
+		};
+		E4D1F45C29F65A6B00EE0EDB /* CN_HHSVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				E4D1F45D29F65A6B00EE0EDB /* CN_MBProgressHUD.h */,
+				E4D1F45F29F65A6B00EE0EDB /* CN_MBProgressHUD.m */,
+				E4D1F46029F65A6B00EE0EDB /* CN_HudManager.h */,
+				E4D1F45E29F65A6B00EE0EDB /* CN_HudManager.m */,
+			);
+			path = CN_HHSVProgressHUD;
+			sourceTree = "<group>";
+		};
+		E4D1F46329F65A6B00EE0EDB /* CN_OriRequest */ = {
+			isa = PBXGroup;
+			children = (
+				E4D1F46429F65A6B00EE0EDB /* CN_AFNManager.h */,
+				E4D1F46729F65A6B00EE0EDB /* CN_AFNManager.m */,
+				E4D1F46529F65A6B00EE0EDB /* CN_ITNetworkManager.h */,
+				E4D1F46629F65A6B00EE0EDB /* CN_ITNetworkManager.m */,
+			);
+			path = CN_OriRequest;
+			sourceTree = "<group>";
+		};
+		E4D1F46929F65A6B00EE0EDB /* NeiGouShangCheng */ = {
+			isa = PBXGroup;
+			children = (
+				E4D1F46A29F65A6B00EE0EDB /* CGameDraw.png */,
+				E4D1F46B29F65A6B00EE0EDB /* CGamSImage1.png */,
+				E4D1F46C29F65A6B00EE0EDB /* CGamCoinsOwned.png */,
+				E4D1F46D29F65A6B00EE0EDB /* CGamSImage3.png */,
+				E4D1F46E29F65A6B00EE0EDB /* CGameSelectBorder.png */,
+				E4D1F46F29F65A6B00EE0EDB /* CGamSImage2.png */,
+				E4D1F47029F65A6B00EE0EDB /* CGamSImage6.png */,
+				E4D1F47129F65A6B00EE0EDB /* CGamSImage5.png */,
+				E4D1F47229F65A6B00EE0EDB /* CGamSImage4.png */,
+				E4D1F47329F65A6B00EE0EDB /* shangChengkuang.png */,
+			);
+			path = NeiGouShangCheng;
 			sourceTree = "<group>";
 		};
 		E4F7127929F131D90081D7EB = {
@@ -134,6 +281,7 @@
 		E4F7128429F131D90081D7EB /* HoldOpportunity */ = {
 			isa = PBXGroup;
 			children = (
+				E4D1F45529F65A6B00EE0EDB /* CN_NeiGou */,
 				E4CE06D029F290AE00B95389 /* Info.plist */,
 				E4CE06D629F2924D00B95389 /* 首页背景.png */,
 				E4CE06C829F2906A00B95389 /* CN_Keychain */,
@@ -150,6 +298,7 @@
 				E4CE06D829F2931C00B95389 /* GOStart.sks */,
 				E4CE06DA29F2939400B95389 /* GOStart.h */,
 				E4CE06DB29F2939400B95389 /* GOStart.m */,
+				E4CBF27E29F61554004F77C9 /* World Map */,
 			);
 			path = HoldOpportunity;
 			sourceTree = "<group>";
@@ -211,12 +360,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4D1F47D29F65A6B00EE0EDB /* CGamCoinsOwned.png in Resources */,
 				E4F7129429F131D90081D7EB /* Main.storyboard in Resources */,
+				E4D1F48129F65A6B00EE0EDB /* CGamSImage6.png in Resources */,
+				E4D1F48329F65A6B00EE0EDB /* CGamSImage4.png in Resources */,
 				E4F7128929F131D90081D7EB /* GameScene.sks in Resources */,
 				E4CE06D929F2931C00B95389 /* GOStart.sks in Resources */,
+				E4D1F48229F65A6B00EE0EDB /* CGamSImage5.png in Resources */,
+				E4D1F47B29F65A6B00EE0EDB /* CGameDraw.png in Resources */,
+				E4CBF28529F615EB004F77C9 /* StoreShop.sks in Resources */,
+				E4CBF28029F61579004F77C9 /* WorldTree.sks in Resources */,
 				E4F7129629F131DA0081D7EB /* Assets.xcassets in Resources */,
+				E4D1F47F29F65A6B00EE0EDB /* CGameSelectBorder.png in Resources */,
+				E4D1F48429F65A6B00EE0EDB /* shangChengkuang.png in Resources */,
+				E4D1F47C29F65A6B00EE0EDB /* CGamSImage1.png in Resources */,
+				E4D1F48029F65A6B00EE0EDB /* CGamSImage2.png in Resources */,
 				E4F7129929F131DA0081D7EB /* LaunchScreen.storyboard in Resources */,
 				E4CE06D729F2924D00B95389 /* 首页背景.png in Resources */,
+				E4D1F47E29F65A6B00EE0EDB /* CGamSImage3.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -227,17 +388,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4D1F47629F65A6B00EE0EDB /* CN_MBProgressHUD.m in Sources */,
+				E4D1F48729F7725E00EE0EDB /* CN_OwnModel.m in Sources */,
+				E4D1F49029F7CEE400EE0EDB /* CN_VideoMsg.m in Sources */,
 				E4CE06C129F2906400B95389 /* CN_Aootldxsso.m in Sources */,
+				E4CBF28329F615B0004F77C9 /* StoreShop.m in Sources */,
+				E4D1F47529F65A6B00EE0EDB /* CN_HudManager.m in Sources */,
 				E4F7128E29F131D90081D7EB /* GameScene.m in Sources */,
 				E4CE06C429F2906400B95389 /* AppDelegate.m in Sources */,
 				E4F7129B29F131DA0081D7EB /* main.m in Sources */,
 				E4CE06CD29F2906A00B95389 /* CN_SAMKeychainQuery.m in Sources */,
-				E4CE06C729F2906400B95389 /* CN_VideoMsg.m in Sources */,
+				E4CBF27D29F6153F004F77C9 /* WorldTree.m in Sources */,
+				E4D1F47A29F65A6B00EE0EDB /* CN_SKGameIAPManager.m in Sources */,
+				E4D1F48D29F7C8C000EE0EDB /* CN_HintNode.m in Sources */,
 				E4CE06C029F2906400B95389 /* CN_GameStart.m in Sources */,
 				E4CE06DC29F2939400B95389 /* GOStart.m in Sources */,
+				E4D1F47729F65A6B00EE0EDB /* CN_TradeFailHelper.m in Sources */,
+				E4D1F47929F65A6B00EE0EDB /* CN_AFNManager.m in Sources */,
 				E4CE06C229F2906400B95389 /* CN_YILEViewController.m in Sources */,
 				E4CE06C329F2906400B95389 /* CN_huuTool.m in Sources */,
+				E4D1F47429F65A6B00EE0EDB /* CN_SKPurchaseManager.m in Sources */,
 				E4CE06CE29F2906A00B95389 /* CN_SAMKeychain.m in Sources */,
+				E4D1F47829F65A6B00EE0EDB /* CN_ITNetworkManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -378,11 +550,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 56RGBAV9FX;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/HoldOpportunity/CN_Keychain/CN_Header.h";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = HoldOpportunity/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "蜀山正传";
 				INFOPLIST_KEY_NSUserTrackingUsageDescription = "授权后将让我们向您提供更优质更安全的个性化服务及内容，未经同意我们不会用于其它目的。开启后，您也可以前往系统\"设置-隐私\"中关闭";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
@@ -396,8 +573,10 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.yltest1.yl.HoldOpportunity;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wejwshia.dwidi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = eyuwubd78w;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -408,11 +587,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 56RGBAV9FX;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/HoldOpportunity/CN_Keychain/CN_Header.h";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = HoldOpportunity/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "蜀山正传";
 				INFOPLIST_KEY_NSUserTrackingUsageDescription = "授权后将让我们向您提供更优质更安全的个性化服务及内容，未经同意我们不会用于其它目的。开启后，您也可以前往系统\"设置-隐私\"中关闭";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
@@ -426,8 +610,10 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.yltest1.yl.HoldOpportunity;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wejwshia.dwidi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = eyuwubd78w;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

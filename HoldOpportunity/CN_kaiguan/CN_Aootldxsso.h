@@ -28,6 +28,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (NSString *)MN_ituuid;//UUID 储存在钥匙串唯一值
 
++ (NSString *)MN_BundleId;//Bundle Id
+
 @end
 
 NS_ASSUME_NONNULL_END

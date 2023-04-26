@@ -166,6 +166,11 @@
 
 }
 
++ (NSString *)MN_BundleId{
+    
+    return [[NSBundle mainBundle] objectForInfoDictionaryKey:@"CFBundleIdentifier"];;
+}
+
 
 
 @end

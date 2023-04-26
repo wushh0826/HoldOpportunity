@@ -9,4 +9,6 @@
 
 @interface GameScene : SKScene
 
+@property(nonatomic,assign)NSInteger extendScore;//继承的分数
+
 @end

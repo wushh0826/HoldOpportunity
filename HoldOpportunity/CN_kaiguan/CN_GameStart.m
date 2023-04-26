@@ -73,6 +73,7 @@
         SKView *PN_skView = [[SKView alloc] initWithFrame:self.view.frame];
         [self.view addSubview:PN_skView];
         // Load the SKScene from 'GameScene.sks'
+        PN_skView.showsPhysics = YES;
         SKScene *scene = [SKScene nodeWithFileNamed:@"GOStart"];
         scene.scaleMode = SKSceneScaleModeFill;
         [PN_skView presentScene:scene];
